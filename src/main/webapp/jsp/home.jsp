@@ -10,7 +10,10 @@
 
 <body>
 
-	<div>Welcome to home page.</div>
+	<div>
+		Welcome to home page. Click <a href="./login">here</a> to login.<br/>
+		<h3>Hello ${userId}!</h3>
+	</div>
 
 </body>
 </html>

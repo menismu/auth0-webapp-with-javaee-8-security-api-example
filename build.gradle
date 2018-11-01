@@ -14,6 +14,8 @@ repositories {
 }
 
 dependencies {
+	compile 'com.auth0:mvc-auth-commons:1.+'
+	
 	providedCompile 'org.glassfish.soteria:javax.security.enterprise:1.0-b07'
     providedCompile 'javax:javaee-api:8.0'
 }
