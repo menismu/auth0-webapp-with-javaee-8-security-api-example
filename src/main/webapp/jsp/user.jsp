@@ -11,7 +11,7 @@
 <body>
 
 	<div>
-		Your are logged with user id ${userId}.
+		Your are logged with user id ${userId}. Click <a href="./logout">here</a> to log out.
 	</div>
 
 </body>
