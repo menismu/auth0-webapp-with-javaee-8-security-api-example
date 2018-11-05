@@ -29,7 +29,7 @@ public class CallbackServlet extends HttpServlet {
 			SessionUtils.set(req, "accessToken", tokens.getAccessToken());
 			SessionUtils.set(req, "idToken", tokens.getIdToken());
 			
-			res.sendRedirect(req.getScheme() + "://" + req.getServerName() + ":" + req.getServerPort() + req.getContextPath() + "/home");
+			res.sendRedirect(req.getScheme() + "://" + req.getServerName() + ":" + req.getServerPort() + req.getContextPath() + "/user");
 		} catch (IdentityVerificationException e) {
 			
 			res.sendRedirect(req.getScheme() + "://" + req.getServerName() + ":" + req.getServerPort() + req.getContextPath() + "/home");
